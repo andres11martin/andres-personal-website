@@ -1,0 +1,10 @@
+.content:before{
+    background: transparent;
+}
+.text{
+    margin: auto;
+}
+
+.wrapper{
+    height: auto;
+}

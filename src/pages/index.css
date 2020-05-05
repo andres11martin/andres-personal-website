@@ -1,0 +1,29 @@
+.wrapper {
+    height: 140vh;
+}
+.content:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: 160vh;
+    opacity: 0.3;
+    background: url("../images/yo.jpg") no-repeat left;
+    background-position: 20% 60%;
+    background-size: 32%;
+    background-attachment: fixed;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(0.9);
+}
+
+.text{
+    line-height: 1.6;
+    letter-spacing: 0.1em;
+    width: 50%;
+    margin-left: 60%;
+    z-index: 8;
+}
+
+

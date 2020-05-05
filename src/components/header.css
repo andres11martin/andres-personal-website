@@ -1,0 +1,57 @@
+.header {
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99vw;
+    z-index: 10;
+}
+h1{
+    margin: 0;
+    font-weight: 400;
+}
+.about{
+    text-align: center;
+}
+
+.projects{
+    text-align: right;
+}
+
+.home, .about, .projects {
+    line-height:40px;
+  }
+
+  a{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    top: 112%;
+  height: 2px;
+  width: 0%;
+  left: 5%;
+  background-color: white;
+    transition: 0.5s ease all .3s;
+}
+  
+a:hover::after {
+    width: 90%;
+    transition: 0.3s ease all;  
+}
